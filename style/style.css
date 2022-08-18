@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: roboto;
+}
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+header h1 {
+  width: 70px;
+  height: 70px;
+  background-image: url(../image/Logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-indent: -99999999999px;
+  float: left;
+}
+.active {
+  border-bottom: solid 1px rgba(156, 155, 155, 0.656);
+  width: 90px;
+}
+header h1 a {
+  display: block;
+  width: 70px;
+  height: 70px;
+}
+header {
+  width: 100%;
+  height: 94px;
+  background-color: black;
+  padding: 12px 100px;
+}
+header li {
+  float: left;
+  margin-right: 20px;
+}
+header nav {
+  margin-left: 168px;
+  margin-top: 26px;
+}
+header li a {
+  /* background-color: aqua; */
+  padding: 5px 0px;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+}
+
+header li a:before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 2s;
+}
+header li a:hover::before {
+  width: 100%;
+}
+main {
+  padding: 52px 0px 100px 110px;
+  clear: both;
+}
+h2 {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+article {
+  width: 300px;
+  margin-top: 50px;
+  float: left;
+  margin-right: 138px;
+  margin-bottom: 22px;
+
+  /* background-color: rgb(103, 98, 98); */
+}
+article:hover .link a {
+  border-bottom: 1px solid #000;
+}
+article:hover section {
+  box-shadow: 0 0 20px;
+}
+.picture {
+  width: 100%;
+  height: 245px;
+  /* background-color: aqua; */
+  border: 1px solid black;
+  background-image: url(../image/wave.png);
+  background-position-y: 58px;
+  background-position-x: 7px;
+  background-size: 25%;
+  background-repeat: repeat-x;
+  position: relative;
+}
+section h3 {
+  margin-top: 145px;
+  margin-left: 12px;
+  font-size: 18px;
+}
+section p {
+  margin: 14px 12px;
+  font-size: 14px;
+}
+.like {
+  width: 50px;
+  height: 50px;
+  background-image: url(../image/like.png);
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background-size: 100%;
+}
+.like:hover {
+  background-image: url(/image/like\ 2.png);
+}
+article .link a {
+  color: #000;
+  font-size: 12px;
+}
+article .link {
+  margin-top: 10px;
+}
+.secondheader {
+  margin-top: 22px;
+  clear: left;
+}
+.nopicture {
+  width: 100%;
+  height: 245px;
+  border: 1px solid black;
+}
+.social {
+  width: 50px;
+  height: 100px;
+  position: fixed;
+  top: 213px;
+  right: 0px;
+  /* background-color: #000; */
+}
+.facebook,
+.instagram {
+  width: 50px;
+  height: 50px;
+}
+.facebook {
+  background-image: url(/image/facebook.png);
+}
+.instagram {
+  background-image: url(/image/instagram.png);
+}
+.facebook a,
+.instagram a {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+.facebook a:hover {
+  background-image: url(/image/facebook\ 2.png);
+}
+.instagram a:hover {
+  background-image: url(/image/instagram\ 2.png);
+}
+footer {
+  clear: both;
+  padding: 28px 18px;
+  background-color: #000;
+  margin-top: 100px;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  background-image: url(/image/Logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+}
+.logo a {
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.last {
+  margin-bottom: 100px;
+}
+footer ul {
+  width: 100%;
+  text-align: center;
+}
+footer li a {
+  color: #fff;
+  font-size: 18px;
+}
+footer nav {
+  margin-top: 26px;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+}
+/* ------------------------------- */
+.playlist,
+.playlist2 {
+  margin-bottom: 51px;
+}
+.secondpage {
+  float: left;
+  margin-right: 157px;
+  margin-bottom: 46px;
+}
+.secondpage li a,
+.secondrow li a {
+  color: #000;
+  font-size: 18px;
+}
+.waveholder {
+  width: 282px;
+  height: 65px;
+  /* background-color: #000; */
+  clear: both;
+  background-image: url(/image/wave.png);
+  background-size: 25%;
+  background-repeat: repeat-x;
+  margin-left: 449px;
+  margin-bottom: 108px;
+}
+.Iamfdonewiththis {
+  font-size: 36px;
+  font-weight: 500;
+  margin-left: 449px;
+
+  /* background-position: center; */
+}
+.secondrow {
+  float: left;
+  margin-right: 44px;
+  margin-bottom: 136px;
+}
+.secondpage:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.secondrow:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
